@@ -1,0 +1,12 @@
+.btn-large{
+    width: 200px;
+    height: 40px;
+    background-color: #fda50a;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 2px 0 #f6f6f6;
+}
+
+.btn-large:hover{
+    background-color: #ffba44;
+}

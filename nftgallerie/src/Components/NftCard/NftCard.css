@@ -1,0 +1,86 @@
+.nft-card{
+    width: 300px;
+    /*background-color: #f0f0f0;*/
+    margin: 20px;
+    border-radius:20px;
+    border: 1px solid grey;
+    box-shadow: 4px 4px 0 #f0f0f0;
+}
+
+.nft-img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius:20px 20px 0  0;
+}
+
+.nft-desc-card{
+    width: 100%;
+    height: 180px;
+    border-radius: 0 0 20px 20px;
+}
+
+.nft-title{
+    font-size: 20px;
+    text-align: center;
+    margin:0;
+}
+
+.nft-desc-section{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    /*background-color: #f0f0f0;*/
+}
+
+.nft-desc {
+    margin: 20px 10px;
+}
+
+.nft-desc p{
+    margin: 0;
+}
+
+.nft-desc-p{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.nft-desc{
+    width: 40%;
+}
+
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    z-index: 10;
+}
+
+.modal{
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 20;
+}
+
+.addBasket{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+    /*margin-top: 15px;*/
+}
+
+.addBasket img{
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+    margin: 15px 15px 0 0 ;
+    cursor: pointer;
+}
