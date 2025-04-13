@@ -1,10 +1,9 @@
 import './NftCard.css'
 import {useState} from "react";
 import addBasket from '../../Assets/icons/addToBasket.png'
-import { ethers } from 'ethers';
 import { marketContract, eurContract } from '../../utils/web3';
 
-export default function NftCard ({ item, onAdd }) {
+export default function NftCard ({ item }) {
     const [isVisible, setIsVisible] = useState(false)
 
     const handleToggleVisibility = () => {
@@ -43,7 +42,7 @@ export default function NftCard ({ item, onAdd }) {
                 <div className='nft-desc-section'>
                     <div className='nft-desc' style={{width: '65%'}}>
                         <p style={{color: 'grey'}}>Description :</p>
-                        <p className='nft-desc-p'>{item.desc}</p>
+                        <p className='nft-desc-p'>{item.description}</p>
                     </div>
                     <div className='nft-desc' style={{width: '30%'}}>
                         <p style={{color: 'grey'}}>Price :</p>

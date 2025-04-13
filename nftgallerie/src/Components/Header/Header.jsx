@@ -1,12 +1,10 @@
 import './Header.css'
 import BtnLarge from "../BtnLarge/BtnLarge";
-import BtnSmall from "../BtnSmall/Btnsmall";
-import panier from '../../Assets/icons/panier.png';
 import logo from '../../Assets/logo.png';
 import {useState} from "react";
 
 
-export default function Header({items}) {
+export default function Header() {
     const [walletConnected, setWalletConnected] = useState(false);
 
     /**
